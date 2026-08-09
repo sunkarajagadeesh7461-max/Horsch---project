@@ -46,8 +46,8 @@ else:
 # catch invalid input) and at the end prints out both the maximum and
 # minimum of the numbers instead of the average.
 
-minimum = None    # we choose none instead of '0', None ha no value and '0' has a value
-maximum = None 
+minimum = None    # we choose 'None' instead of '0', '0' is not the actual input value to start with, it's more like a fake value
+maximum = None    # If we did with 0 it will sliently give the wrong answers
 
 while True:
     number = input("Enter a number: ")
